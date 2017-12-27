@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml-stylesheet  href="TiendaMuebles.xsl" type="text/xsl"?>
+<muebles>
+    <silla>
+        <modelo>Silla de Salón</modelo>
+        <material>Madera</material>
+    </silla>
+    <silla>
+        <modelo>Silla de jardín</modelo>
+        <material>Hierro</material>
+    </silla>
+    <silla>
+        <modelo>Silla de terraza</modelo>
+        <material>Plástico</material>
+    </silla>
+     <silla>
+        <modelo>Silla de diseño</modelo>
+        <material>Aluminio</material>
+    </silla>
+</muebles>

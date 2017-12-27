@@ -1,0 +1,19 @@
+1.6 XML y servidores de DDBD.
+
+El objetivo de este ejercicio es almacenar en un servidor de BBDD los ficheros XML de los ejercicios 3 y 4. Los detalles para esta tarea son:
+    a) Se instalarán 2 servidores de BBDD, gratuitos o en versiones de prueba que permitan realizar las tareas.
+        1. Previo a la instalación de intentará consultar las características de las opciones elegidas para tratar, al menos con un servidor que no procesa XML en modo nativo y otro que sí.
+        2. Una vez seleccionados los servidores, se publicará en el foro de la asignatura donde deberá existir un hilo para cada servidor. Si un alumno quiere utilizar un servidor, deberá crear un post en el hilo de ese servidor o crearlo si no existe y publicar un post. Para un determinado servidor no podrá haber más de 5 post de forma que deberá elegirse otro servidor si ya estuviera completo el elegido.
+    b) Se desplegarán los ficheros XML, DTD, XML Schema y XSLT
+    c) Se verificará el nivel de procesamiento XML alcanzado por la BD, tratando de realizar las siguientes acciones directamente en las herramientas de dicha BD.
+        *1. Carga de los ficheros como campos de la BD o el formato soportado
+        *2. Acceso a los ficheros almacenados
+        *3. Acceso al contenido de los ficheros mediante rutas XPATH
+        4. Aplicación de la validación con DTD y XML Schema almacenados.
+        5. Aplicación de hoja de estilo XSLT.
+
+Videos:
+    SQL Server: https://www.youtube.com/watch?v=vy2Nv26UzAU
+    BaseX: https://www.youtube.com/watch?v=LooC-ECVrWg
+Documentacion:
+   Carga de XSD y Validacion: https://www.codeproject.com/Articles/1087475/Validate-XML-File-with-XSD-Schema-in-SQL-Server

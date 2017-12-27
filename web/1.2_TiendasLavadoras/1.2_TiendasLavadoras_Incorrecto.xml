@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE listaTiendasLavadoras SYSTEM "DTD_ListaTiendasLavadoras.dtd">
+<listaTiendasLavadoras>
+    <tiendaLavadoras>
+        <nombreTienda>Tienda de lavadoras la mejor opción del lavado</nombreTienda>
+        <direcciónTiendaLavadoras>
+            <calle>
+                <nombreCalle>Primera</nombreCalle>                
+            </calle>
+            <localidad>
+                Santo Domingo
+            </localidad>
+            <códigoPostal>
+                50002
+            </códigoPostal>
+            <país>
+                Rep. Dom.
+            </país>
+        </direcciónTiendaLavadoras>   
+        <fax>809-654-7896</fax>
+        <fax>809-654-7896</fax>      
+        <distribuidor nombre="distribuidor1">
+            <direcciónDistribuidor>
+                <calleDistribuidor>                   
+                    <númeroCalleDistribuidor>36</númeroCalleDistribuidor>
+                </calleDistribuidor>
+                <localidadDistribuidor>
+                    Santo Domingo
+                </localidadDistribuidor>
+                <códigoPostalDistribuidor>
+                    60054
+                </códigoPostalDistribuidor>              
+            </direcciónDistribuidor>          
+        </distribuidor>     
+        <lavadora cargaMáxima="15kg" marca="Samsung"/>  
+        <lavadora códigoMmodelo="cod-modelo-2" cargaMáxima="10kg" marca="Bosch"/>  
+        <lavadora códigoMmodelo="cod-modelo-3" cargaMáxima="25kg" marca="Electrolux"/>     
+    </tiendaLavadoras>
+     <tiendaLavadoras>
+        <nombreTienda>Tienda de lavadoras la excelente</nombreTienda>
+        <direcciónTiendaLavadoras>
+            <avenida>
+                <nombreAvenida>27 de Febrero</nombreAvenida>
+                <númeroAvenida>46</númeroAvenida>
+            </avenida>
+            <localidad>
+                Santo Domingo
+            </localidad>
+            <códigoPostal>
+                90002
+            </códigoPostal>
+            <país>
+                Rep. Dom.
+            </país>
+        </direcciónTiendaLavadoras>        
+        <teléfono>809-554-8456</teléfono>
+        <fax>809-554-8457</fax>
+        <distribuidor nombre="distribuidor3">
+            <direcciónDistribuidor>
+                <calleDistribuidor>
+                    <nombreCalleDistribuidor>La ignorancia</nombreCalleDistribuidor>
+                    <númeroCalleDistribuidor>14</númeroCalleDistribuidor>
+                </calleDistribuidor>
+                <localidadDistribuidor>
+                    San Pedro de Macoris
+                </localidadDistribuidor>
+                <códigoPostalDistribuidor>
+                    40054
+                </códigoPostalDistribuidor>
+                <paísDistribuidor>
+                    Rep. Dom.
+                </paísDistribuidor>
+            </direcciónDistribuidor>
+            <marcasOficiales>
+                 <NombreMarca>Marca 4</NombreMarca>  
+                 <NombreMarca>Marca 5</NombreMarca>   
+                 <NombreMarca>Marca 6</NombreMarca>
+            </marcasOficiales>
+        </distribuidor>
+         <distribuidor nombre="distribuidor4"> 
+                   <direcciónDistribuidor>
+                <calleDistribuidor>
+                    <nombreCalleDistribuidor>La Luz</nombreCalleDistribuidor>
+                    <númeroCalleDistribuidor>88</númeroCalleDistribuidor>
+                </calleDistribuidor>
+                <localidadDistribuidor>
+                    Santiago de los Caballeros
+                </localidadDistribuidor>
+                <códigoPostalDistribuidor>
+                    63500
+                </códigoPostalDistribuidor>
+                <paísDistribuidor>
+                    Rep. Dom.
+                </paísDistribuidor>
+            </direcciónDistribuidor>          
+            <marcasOficiales>
+                 <NombreMarca>Marca 7</NombreMarca>  
+                 <NombreMarca>Marca 8</NombreMarca>   
+                 <NombreMarca>Marca 9</NombreMarca>
+            </marcasOficiales>
+        </distribuidor>
+        <lavadora códigoMmodelo="cod-modelo-4" cargaMáxima="8kg" marca="Fagor"/>  
+        <lavadora códigoMmodelo="cod-modelo-5" cargaMáxima="23kg" marca="Aeg"/>  
+        <lavadora códigoMmodelo="cod-modelo-6" cargaMáxima="36kg" marca="Beko"/>     
+    </tiendaLavadoras>
+</listaTiendasLavadoras>

@@ -1,0 +1,37 @@
+## YAML Template.
+Encargo: 
+   - Cliente: 
+      nombre: Manuel Mancha
+      id: c32
+   - Producto:
+       - Nombre: Despertador
+       - Cantidad: 12
+       - Precio: 
+            valor: 21.95
+            Moneda: EUR
+       - Enviar:
+           Calle: 14 Río Tajo
+           Ciudad: Alcalá de Henares
+           Provincia: Madrid
+           CP: 28802
+   - Producto:
+       - Nombre: MP3
+       - Cantidad: 5
+       - Precio: 
+            valor: 12.00
+            Moneda: EUR
+       - Enviar:
+           Calle: 14 Río Tajo
+           Ciudad: Alcalá de Henares
+           Provincia: Madrid
+           CP: 28802
+   - Subtotal: 
+       moneda: EUR
+       valor: 323.40
+   - Tasa:       
+       impuestos: 21.0
+       moneda: EUR
+       valor: 323.40
+   - Total:
+       moneda: EUR
+       valor: 391.32

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE alumnos SYSTEM "alumnos.dtd">
+<?xml-stylesheet  href="1.5_ListaAlumnos.xsl" type="text/xsl"?>
+<!--?xml-stylesheet  href="1.5_Archivo2_Escribiendo_Texto.xsl" type="text/xsl"?-->
+<!--?xml-stylesheet  href="1.5_Archivo1_Bucles_Condiciones.xsl" type="text/xsl"?-->
+<alumnos>
+    <alumno NIA="A200087542" titulacion="ITT">
+        <nombre>Antonio</nombre>
+        <apellido1>Fernández</apellido1>
+        <asignaturas>
+            <asignatura convocatoria="03" codigo="IIT-LST"/>
+            <asignatura convocatoria="02" codigo="IIT-ALG"/>
+            <asignatura convocatoria="01" codigo="IIT-FISI"/>
+            <asignatura convocatoria="04" codigo="IIT-AO"/>
+            <asignatura convocatoria="01" codigo="IIT-OPT"/>
+            <asignatura convocatoria="04" codigo="IIT-IT"/>
+        </asignaturas>
+    </alumno>
+    <alumno NIA="A200012785" titulacion="ITT">
+        <nombre>María</nombre>
+        <apellido1>Pernas</apellido1>
+        <asignaturas>
+            <asignatura convocatoria="01" codigo="IIT-FISI"/>
+            <asignatura convocatoria="02" codigo="IIT_FISII"/>
+            <asignatura convocatoria="01" codigo="IIT-MAOD"/>
+            <asignatura convocatoria="01" codigo="IIT-FIA"/>
+            <asignatura convocatoria="02" codigo="IIT-EDO"/>
+        </asignaturas>
+    </alumno>
+    <alumno NIA="A300013425" titulacion="IIf">
+        <nombre>Erik</nombre>
+        <apellido1>Schredeoder</apellido1>
+        <asignaturas>
+            <asignatura convocatoria="03" codigo="IIF-TEII"/>
+            <asignatura convocatoria="01" codigo="IIF-ALO"/>
+            <asignatura convocatoria="01" codigo="IIF-ISI"/>
+            <asignatura convocatoria="05" codigo="IIF-RC"/>
+            <asignatura convocatoria="04" codigo="IIF-IAI"/>
+        </asignaturas>
+    </alumno>
+    <alumno NIA="A200065134" titulacion="IT">
+    <nombre>Laura</nombre>
+    <apellido1>Rodríguez</apellido1>
+    <asignaturas>
+        <asignatura convocatoria="03" codigo="IT-COM"/>
+        <asignatura convocatoria="01" codigo="IT-ANT"/>
+        <asignatura convocatoria="02" codigo="IT-TSF"/>
+        <asignatura convocatoria="02" codigo="IT-SOC"/>
+    </asignaturas>
+    </alumno>
+</alumnos>

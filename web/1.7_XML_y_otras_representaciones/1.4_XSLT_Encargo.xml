@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--?xml-stylesheet  href="1.4_Estilos_Encargo.xsl" type="text/xsl"?-->
+<Encargo>
+        <Cliente id="c32">Manuel Mancha</Cliente>
+        <Producto>
+            <Nombre>Despertador</Nombre>
+            <Cantidad>12</Cantidad>
+            <Precio moneda="EUR">21.95</Precio >
+            <Enviar>
+                <Calle>14 Río Tajo</Calle>
+                <Ciudad>Alcalá de Henares</Ciudad>
+                <Provincia>Madrid</Provincia>
+                <CP>28802</CP>
+            </Enviar>
+        </Producto>
+        <Producto>
+            <Nombre>MP3</Nombre>
+            <Cantidad>5</Cantidad>
+            <Precio moneda="EUR">12.00</Precio >
+            <Enviar>
+                <Calle>14 Río Tajo2</Calle>
+                <Ciudad>Alcalá de Henares</Ciudad>
+                <Provincia>Madrid</Provincia>
+                <CP>28802</CP>
+            </Enviar>
+        </Producto>
+    <Subtotal moneda='EUR'>323.40</Subtotal>
+    <Tasa impuestos="21.0" moneda='EUR'>67.92</Tasa>
+    <Total moneda='EUR' >391.32</Total>    
+</Encargo>

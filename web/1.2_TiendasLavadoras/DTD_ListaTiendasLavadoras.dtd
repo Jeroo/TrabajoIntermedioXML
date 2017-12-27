@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version='1.0' encoding="windows-1252" ?> --> 
+<!--DTD externo para el ejercicio: 1.2  tiendas-->
+<!--- Entidad para el tipo PCDATA -->
+<!ENTITY  % pcd "(#PCDATA)">
+<!--- Entidad para el tipo CDATA -->
+<!ENTITY  % cd "CDATA">
+<!--- elemento principal -->
+<!ELEMENT listaTiendasLavadoras (tiendaLavadoras*)>
+<!--- elementos de la rama tienda -->
+<!ELEMENT  tiendaLavadoras (nombreTienda,direcciónTiendaLavadoras,teléfono+,fax*,distribuidor*,lavadora+)>
+<!ELEMENT  nombreTienda %pcd;>
+<!--- elementos de la rama direcci�n -->
+<!ELEMENT  direcciónTiendaLavadoras ((calle|avenida),localidad,códigoPostal,país)>
+<!ELEMENT  calle (nombreCalle,númeroCalle)>
+<!ELEMENT  númeroCalle %pcd;>
+<!ELEMENT  nombreCalle %pcd;>
+<!ELEMENT  avenida (nombreAvenida,númeroAvenida)>
+<!ELEMENT  nombreAvenida %pcd;>
+<!ELEMENT  númeroAvenida %pcd;>
+<!ELEMENT  localidad %pcd;>
+<!ELEMENT  códigoPostal %pcd;>
+<!ELEMENT  país %pcd;>
+<!ELEMENT  teléfono %pcd;>
+<!ELEMENT  fax %pcd;>
+
+
+<!--- elementos de la rama Distribuidor -->
+<!ELEMENT  distribuidor (direcciónDistribuidor,marcasOficiales)>
+<!ELEMENT  direcciónDistribuidor ((calleDistribuidor|avenidaDistribuidor),localidadDistribuidor,códigoPostalDistribuidor,paísDistribuidor)>
+<!ELEMENT  calleDistribuidor (nombreCalleDistribuidor,númeroCalleDistribuidor)>
+<!ELEMENT  númeroCalleDistribuidor %pcd;>
+<!ELEMENT  nombreCalleDistribuidor %pcd;>
+<!ELEMENT  avenidaDistribuidor (nombreAvenidaDistribuidor,númeroAvenidaDistribuidor)>
+<!ELEMENT  nombreAvenidaDistribuidor %pcd;>
+<!ELEMENT  númeroAvenidaDistribuidor %pcd;>
+<!ELEMENT  localidadDistribuidor %pcd;>
+<!ELEMENT  códigoPostalDistribuidor %pcd;>
+<!ELEMENT  paísDistribuidor %pcd;>
+<!ELEMENT  marcasOficiales (NombreMarca*)>
+<!ELEMENT  NombreMarca %pcd;>
+<!ATTLIST distribuidor
+    nombre %cd; #REQUIRED   
+  >
+
+<!--- elementos de la rama Lavadora -->
+<!ELEMENT  lavadora %pcd;>
+<!ATTLIST lavadora
+     códigoMmodelo %cd; #REQUIRED
+     cargaMáxima %cd; #REQUIRED
+     marca %cd; #REQUIRED
+  >

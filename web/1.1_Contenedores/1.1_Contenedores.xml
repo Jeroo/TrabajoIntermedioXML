@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<plantaEnvasado nombre="xyz" tipo="liquidos">
+  <contenedores>
+      <contenedor tipo="grande">
+        <grupo tipo="envases">
+            <envase tipo="grandeAncho" almacena="alimentos">
+                <grupo tipo="liquidos">
+                  <liquido tipo="alimento">Agua</liquido>
+                  <liquido tipo="alimento">Leche</liquido>
+                  <liquido tipo="alimento">Aceite</liquido>
+                </grupo>
+            </envase>
+            <envase tipo="grandeAlto" almacena="alimentos">
+                 <grupo tipo="liquidos">
+                    <liquido tipo="alimento">Agua</liquido>
+                    <liquido tipo="alimento">Leche</liquido>
+                    <liquido tipo="alimento">Aceite</liquido>
+                </grupo>
+            </envase>
+            <envase tipo="medianoAncho" almacena="alimentos">
+                <grupo tipo="liquidos">
+                  <liquido tipo="alimento">Agua</liquido>
+                  <liquido tipo="alimento">Leche</liquido>
+                  <liquido tipo="alimento">Aceite</liquido>
+                </grupo>
+            </envase>
+            <envase tipo="medianoAlto" almacena="sustancias corrosivas">
+                <grupo tipo="liquidos">
+                  <liquido tipo="sustancias corrosivas">Lejía</liquido>
+                  <liquido tipo="sustancias corrosivas">Amoniaco</liquido>
+                  <liquido tipo="sustancias corrosivas">Jabón</liquido>
+                  <liquido tipo="sustancias corrosivas">Aguarrás</liquido>
+                  <liquido tipo="sustancias corrosivas">Gasolina</liquido>
+                  <liquido tipo="sustancias corrosivas">Alcohol</liquido>
+                  <liquido tipo="sustancias corrosivas">Vinagre</liquido>
+                </grupo>
+            </envase>
+            <envase tipo="pequeno" almacena="ni alimentos ni sustancias corrosivas"></envase>
+        </grupo>        
+      </contenedor>
+      <contenedor tipo="mediano">
+          <grupo tipo="envases">         
+             <envase tipo="medianoAncho" almacena="alimentos">
+                <grupo tipo="liquidos">
+                  <liquido tipo="alimento">Agua</liquido>
+                  <liquido tipo="alimento">Leche</liquido>
+                  <liquido tipo="alimento">Aceite</liquido>
+                </grupo>
+            </envase>
+            <envase tipo="medianoAlto" almacena="sustancias corrosivas">
+                <grupo tipo="liquidos">
+                  <liquido tipo="sustancias corrosivas">Lejía</liquido>
+                  <liquido tipo="sustancias corrosivas">Amoniaco</liquido>
+                  <liquido tipo="sustancias corrosivas">Jabón</liquido>
+                  <liquido tipo="sustancias corrosivas">Aguarrás</liquido>
+                  <liquido tipo="sustancias corrosivas">Gasolina</liquido>
+                  <liquido tipo="sustancias corrosivas">Alcohol</liquido>
+                  <liquido tipo="sustancias corrosivas">Vinagre</liquido>
+                </grupo>
+            </envase>
+            <envase tipo="pequeno" almacena="ni alimentos ni sustancias corrosivas"></envase>
+          </grupo>   
+      </contenedor>
+      <contenedor tipo="vertical">
+       <grupo tipo="envases">
+            <envase tipo="grandeAlto" almacena="alimentos">
+                 <grupo tipo="liquidos">
+                    <liquido tipo="alimento">Agua</liquido>
+                    <liquido tipo="alimento">Leche</liquido>
+                    <liquido tipo="alimento">Aceite</liquido>
+                </grupo>
+            </envase>
+            <envase tipo="medianoAlto" almacena="sustancias corrosivas">
+                <grupo tipo="liquidos">
+                  <liquido tipo="sustancias corrosivas">Lejía</liquido>
+                  <liquido tipo="sustancias corrosivas">Amoniaco</liquido>
+                  <liquido tipo="sustancias corrosivas">Jabón</liquido>
+                  <liquido tipo="sustancias corrosivas">Aguarrás</liquido>
+                  <liquido tipo="sustancias corrosivas">Gasolina</liquido>
+                  <liquido tipo="sustancias corrosivas">Alcohol</liquido>
+                  <liquido tipo="sustancias corrosivas">Vinagre</liquido>
+                </grupo>
+            </envase>
+            <envase tipo="pequeno" almacena="ni alimentos ni sustancias corrosivas"></envase>
+        </grupo>   
+      </contenedor>
+  </contenedores>
+</plantaEnvasado>
