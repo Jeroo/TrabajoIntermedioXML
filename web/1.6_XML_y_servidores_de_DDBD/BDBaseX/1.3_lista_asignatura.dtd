@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="windows-1252"?>
+
+<!ELEMENT Lista (Asignatura|Alumno)*>
+<!ELEMENT Alumno (Apellidos|Nombre)*>
+<!ATTLIST Alumno id CDATA #IMPLIED >
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellidos (#PCDATA)>
+<!ELEMENT Asignatura (#PCDATA|Hora|Día)*>
+<!ATTLIST Asignatura codigo CDATA #IMPLIED >
+<!ELEMENT Día (#PCDATA)>
+<!ELEMENT Hora (#PCDATA)>
+
+
