@@ -1,0 +1,22 @@
+(: Outputs the result as html. :)
+declare option output:method 'html';
+(: Turn whitespace chopping off. :)
+declare option db:chop 'no';
+ 
+let $in := '1.3_lista_asignaturas.xml'
+let $style :=
+  <xsl:stylesheet version='2.0' xmlns:xsl='http://www.w3.org/1999/XSL/Transform'>
+  <xsl:output method='xml'/>
+    <xsl:template match="/">
+<html>
+  <body>
+    <div>
+      <xsl:for-each select='Lista/Alumno'>
+      • <b><xsl:apply-templates select='Alumno'/></b>: <xsl:value-of select='Nombre'/><br/>
+      </xsl:for-each>
+    </div>
+  </body>
+</html>
+    </xsl:template>
+  </xsl:stylesheet> 
+return xslt:transform($in, $style)
